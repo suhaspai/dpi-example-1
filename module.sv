@@ -41,13 +41,13 @@ module top;
    int                    ret;
 
    initial begin
-      $display("Hello from SystemVerilog!");
 
       ret = dpi_input(b, h, i, l, r, s, sv_bit, sv_bit_vec, sv_logic, sv_reg, sv_logic_vec, sv_reg_vec);
 
       dpi_output(sv_logic_vec_out, i_out);
 
-      $display("lv=%x  int=%x", sv_logic_vec_out, i_out);
+      $display("Hello from SystemVerilog!");
+      $display("sv_logic_vec_out=%x  i_out=%x", sv_logic_vec_out, i_out);
       
       $finish(0);
 
