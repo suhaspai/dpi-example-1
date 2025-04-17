@@ -1,4 +1,4 @@
-# dpi-example-1
+# dpi-simple-example
 This is a simple DPI example which has been tested with https://www.veripool.org/verilator/
 
 DPI which stands for Direct Programming Interface is a System Verilog standard. 
